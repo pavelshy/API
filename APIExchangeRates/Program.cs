@@ -20,9 +20,6 @@ namespace ApiExchangeRates
                 Console.WriteLine(exchange?.timestamp);
                 Console.WriteLine(exchange?.date);
                 Console.WriteLine(exchange?.rates);
-                Console.WriteLine(exchange?.USD);
-                Console.WriteLine(exchange?.PLN);
-
 
                 Console.ReadKey();
                 
@@ -37,8 +34,6 @@ namespace ApiExchangeRates
         public object timestamp { get; set; }
         public object date { get; set; }
         public object rates { get; set; }
-        public object USD { get; set; }
-        public object PLN { get; set; }
 
 
 
